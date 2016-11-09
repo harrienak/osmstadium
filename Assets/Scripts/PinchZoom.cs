@@ -7,8 +7,14 @@ public class PinchZoom : MonoBehaviour {
 
     void Start()
     {
-        //transform.position = 
+       
         //offset = transform.position - player.transform.position;
     }
 
+
+    void Update()
+    {
+
+        transform.position = new Vector3(transform.position.x +5, transform.position.y, transform.position.z);
+    }
 }
